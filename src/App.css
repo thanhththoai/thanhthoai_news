@@ -1,0 +1,27 @@
+a:link,
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.Header {
+    height: 100px;
+    display: flex;
+    /* padding: 0 auto; */
+    align-items: flex-start;
+    margin-left: 0;
+    background-color:white;
+    gap: 120px;
+}
+.boder {
+    display: flex;
+    /* justify-content: end; */
+    margin-top: 20px;
+}
+.search {
+    /* border: 1px solid; */
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+}
